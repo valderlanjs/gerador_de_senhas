@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Gerador de Senhas Aleatórios</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Gerador de Senhas Aleatórios</h1>
+      <a href="https://www.instagram.com/valderlanjs/">Por Valderlanjs</a>
+      <input
+        type="text"
+        id="display-password"
+        placeholder="Clique no botão para gerar um senha"
+      />
+      <div class="generate-container">
+        <select name="passwordLength" id="password-length">
+          <option value="0" selected disabled>
+            Selecione o tamanho da senha
+          </option>
+          <option value="4">4</option>
+          <option value="6">6</option>
+          <option value="12">12</option>
+          <option value="18">18</option>
+          <option value="30">30</option>
+        </select>
+        <button onclick="randomPassword()">Gerar senha</button>
+      </div>
+      <p id="error-info"></p>
+    </div>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
