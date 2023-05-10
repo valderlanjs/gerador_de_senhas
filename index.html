@@ -10,12 +10,14 @@
   <body>
     <div class="container">
       <h1>Gerador de Senhas Aleatórios</h1>
-      <a href="https://www.instagram.com/valderlanjs/">Por Valderlanjs</a>
+      <!--Input para exibir a senha gerada-->
       <input
         type="text"
         id="display-password"
         placeholder="Clique no botão para gerar um senha"
       />
+
+      <!--Container para o botão de seleção do tamanho da senha-->
       <div class="generate-container">
         <select name="passwordLength" id="password-length">
           <option value="0" selected disabled>
@@ -27,8 +29,10 @@
           <option value="18">18</option>
           <option value="30">30</option>
         </select>
+        <!--Botão para gerar a senha que ao ser clicado chamará a função randomPassword() do JS.-->
         <button onclick="randomPassword()">Gerar senha</button>
       </div>
+      <!--Paragrafo para exibir mensagem de error-->
       <p id="error-info"></p>
     </div>
     <script src="./assets/script.js"></script>
