@@ -2,4 +2,4 @@
 
 |     | Project           | Live Demo                                                             |
 | :-: | ----------------- | --------------------------------------------------------------        |
-|     | Gerador De Senhas | [Live Demo](https://valderlanjs.github.io/gerador_de_senhas/)         |
+|     | Gerador De Senhas | [Live Demo](https://valderlanjs.github.io/gerador_de_senhas/)       |
